@@ -4,3 +4,10 @@ import numpy as np
 import pickle
 # pandas is used to read the csv file
 import pandas as pd
+
+
+#  loading the saved model
+loadedModel = pickle.load(
+    open('G:\python_workspaces/modelDeploying/trainedModel.sav', 'rb'))
+
+# creating a function for prediction
