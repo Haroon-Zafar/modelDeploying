@@ -69,4 +69,6 @@ def main():
     if st.button("Diabetes Test Result"):
 
         # final output
-        diagnosis =
+        # Passing Column's variables into the function
+        diagnosis = diabetesPrediction(
+            [pregnancy, glucose, bloodPressure, skinThickness, insulin, bmi, age])
