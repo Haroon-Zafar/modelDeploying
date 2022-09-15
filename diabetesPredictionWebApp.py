@@ -16,6 +16,7 @@ loadedModel = pickle.load(
 
 
 def diabetesPrediction(inputData):
+    # predicts whether the person is diabetic or not ( 1 or 0 )
     inputData = (0, 137, 40, 35, 168, 43.1, 2.288, 33
                  )
 
@@ -42,8 +43,9 @@ def main():
 
     # we have to create a sidebar for the user to enter the data
     # we have to remove the last column from the dataset
-
+    # Names of Columns of dataset are below
     # Pregnancies,Glucose,BloodPressure,SkinThickness,Insulin,BMI,DiabetesPedigreeFunction,Age
+
     # below are the datafields in which user can enter the data
 
     pregnancy = st.text_input("Pregnancy", "Type Here")
@@ -55,3 +57,11 @@ def main():
     diabetesPedigreeFunction = st.text_input(
         'Diabetes Pedigree Function', "Type Here")
     age = st.text_input("Age", "Type Here")
+
+    
+    # code for prediction
+    
+    # a null string which does not have any value, if the user has not entered any data
+    diagnosis = ""
+    
+    
