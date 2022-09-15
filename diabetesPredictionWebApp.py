@@ -48,15 +48,15 @@ def main():
 
     # below are the datafields in which user can enter the data
 
-    pregnancy = st.text_input("Pregnancy", "Type Here")
-    glucose = st.text_input("Glucose", "Type Here")
-    bloodPressure = st.text_input("Blood Pressure", "Type Here")
-    skinThickness = st.text_input("Skin Thickness", "Type Here")
-    insulin = st.text_input("Insulin", "Type Here")
-    bmi = st.text_input("BMI", "Type Here")
+    pregnancy = st.text_input("Pregnancy")
+    glucose = st.text_input("Glucose")
+    bloodPressure = st.text_input("Blood Pressure")
+    skinThickness = st.text_input("Skin Thickness")
+    insulin = st.text_input("Insulin")
+    bmi = st.text_input("BMI")
     diabetesPedigreeFunction = st.text_input(
-        'Diabetes Pedigree Function', "Type Here")
-    age = st.text_input("Age", "Type Here")
+        'Diabetes Pedigree Function')
+    age = st.text_input("Age")
 
     # code for prediction
 
