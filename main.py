@@ -3,5 +3,8 @@
 import numpy as np
 import pickle
 
-# loading
-loaded_model = pickle.load(open())
+# loading the saved model
+# use forward slashes always in python
+
+loaded_model = pickle.load(
+    open('G:/python_workspaces/modelDeploying/trained_model.sav', 'rb'))
