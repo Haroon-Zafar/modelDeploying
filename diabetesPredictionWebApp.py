@@ -78,7 +78,6 @@ def main():
     # if you come out of the if block, it will print the diagnosis
     st.success('The person is {}'.format(diagnosis))
 
-    st.success('The person is {}'.format(diagnosis))
 
 # this predicts the output but won't run from here you have to run it from anaconda cmd
 
