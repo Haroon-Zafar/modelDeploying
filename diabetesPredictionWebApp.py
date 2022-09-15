@@ -79,3 +79,9 @@ def main():
     st.success('The person is {}'.format(diagnosis))
 
     st.success('The person is {}'.format(diagnosis))
+
+# this predicts the output but won't run from here you have to run it from anaconda cmd
+
+
+if __name__ == "__main__":
+    main()
