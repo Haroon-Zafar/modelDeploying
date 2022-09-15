@@ -70,5 +70,12 @@ def main():
 
         # final output
         # Passing Column's variables into the function
+
         diagnosis = diabetesPrediction(
             [pregnancy, glucose, bloodPressure, skinThickness, insulin, bmi, age])
+
+    # .success() is used to give a green color to the text
+    # if you come out of the if block, it will print the diagnosis
+    st.success('The person is {}'.format(diagnosis))
+
+    st.success('The person is {}'.format(diagnosis))
