@@ -58,10 +58,15 @@ def main():
         'Diabetes Pedigree Function', "Type Here")
     age = st.text_input("Age", "Type Here")
 
-    
     # code for prediction
-    
+
     # a null string which does not have any value, if the user has not entered any data
+
     diagnosis = ""
-    
-    
+
+    # creating a button for prediction
+
+    if st.button("Diabetes Test Result"):
+
+        # final output
+        diagnosis =
