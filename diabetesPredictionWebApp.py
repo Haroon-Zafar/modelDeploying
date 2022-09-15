@@ -39,3 +39,19 @@ def main():
     # giving the title
 
     st.title("Diabetes Prediction Web App")
+
+    # we have to create a sidebar for the user to enter the data
+    # we have to remove the last column from the dataset
+
+    # Pregnancies,Glucose,BloodPressure,SkinThickness,Insulin,BMI,DiabetesPedigreeFunction,Age
+    # below are the datafields in which user can enter the data
+
+    pregnancy = st.text_input("Pregnancy", "Type Here")
+    glucose = st.text_input("Glucose", "Type Here")
+    bloodPressure = st.text_input("Blood Pressure", "Type Here")
+    skinThickness = st.text_input("Skin Thickness", "Type Here")
+    insulin = st.text_input("Insulin", "Type Here")
+    bmi = st.text_input("BMI", "Type Here")
+    diabetesPedigreeFunction = st.text_input(
+        'Diabetes Pedigree Function', "Type Here")
+    age = st.text_input("Age", "Type Here")
