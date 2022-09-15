@@ -37,3 +37,5 @@ def diabetesPrediction(inputData):
 
 def main():
     # giving the title
+
+    st.title("Diabetes Prediction Web App")
