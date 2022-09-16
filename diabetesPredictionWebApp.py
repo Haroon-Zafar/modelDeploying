@@ -30,10 +30,10 @@ def diabetesPrediction(inputData):
     print(prediction)
 
     if (prediction[0] == 0):
-        print("The person is not Diabetic")
+        return("not Diabetic")
 
     else:
-        print("The person is diabetic")
+        return("diabetic")
 
 
 def main():
